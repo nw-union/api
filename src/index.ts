@@ -5,7 +5,7 @@ const app = new Hono()
 app.get('/', (c) => {
   return c.json({
     ok: true,
-    message: 'Hello Hono!',
+    message: 'Hello Hono!!!??',
   })
 })
 
